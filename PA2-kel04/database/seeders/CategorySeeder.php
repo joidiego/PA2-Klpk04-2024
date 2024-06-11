@@ -15,20 +15,20 @@ class CategorySeeder extends Seeder
     {
         Category::create([
             'id' => 1,
-            'name' => 'pakaian',
-            'slug' => 'pakaian',
+            'name' => 'Bingkai',
+            'slug' => 'Bingkai',
             'parent_id' => null
         ]);
         Category::create([
             'id' => 2,
-            'name' => 'pakaian laki-laki',
-            'slug' => 'pakaian-laki-laki',
+            'name' => 'Labu Lampu',
+            'slug' => 'Labu Lampu',
             'parent_id' => 1
         ]);
         Category::create([
             'id' => 3,
-            'name' => 'pakaian perempuan',
-            'slug' => 'pakaian-perempuan',
+            'name' => 'Mainan',
+            'slug' => 'Mainan',
             'parent_id' => 1
         ]);
     }
